@@ -12,7 +12,7 @@ EXPOSE 8000
 
 WORKDIR /chatApplication/fundoo
 
-RUN chmod +x runserver.sh
+RUN chmod +x run.sh
 
-CMD ["./runserver.sh"]
+CMD ["./run.sh"]
 
